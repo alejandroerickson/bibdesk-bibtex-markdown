@@ -1,0 +1,3 @@
+* <$authors.abbreviatedName.stringByDeTeXifyingString.stringByRemovingCurlyBraces.@componentsJoinedByCommaAndAnd/>.  
+**<$remoteURLs.URL?>[</$remoteURLs.URL?><$fields.Title.stringByDeTeXifyingString.stringByRemovingCurlyBraces/><$remoteURLs.URL?>](<$remoteURLs.URL.absoluteString.@firstObject/>)</$remoteURLs.URL?>**. <$fields.BookTitle.stringByDeTeXifyingString.stringByRemovingCurlyBraces.stringByAppendingCommaAndSpaceIfNotEmpty/><$fields.Series.stringByDeTeXifyingString.stringByRemovingCurlyBraces.stringByAppendingCommaAndSpaceIfNotEmpty/><$fields.Volume.stringByAppendingCommaAndSpaceIfNotEmpty/><$fields.Pages.stringByAppendingCommaAndSpaceIfNotEmpty/><$fields.Year/>.
+
