@@ -83,6 +83,10 @@ Here some sample output.
 	Bdsk-Url-1 = {http://arxiv.org/abs/1304.0070}}
 ```
 
+### This is how I set up my BibDesk template preferences ###
+
+![Template Preferences](images/template_prefs.png "Template Preferences")
+
 ### Getting URLs to work ###
 
 BibDesk converts URLs found the the Url field on start up, so if your URLs are not working, close and open the BibTeX file (BibDesk itself doesn't need to be restarted).
