@@ -22,16 +22,12 @@ Here some sample output.
 
 * X. Wang, A. Erickson, J. Fan, and X. Jia.  
 **[Hamiltonian Properties of DCell Networks](http://comjnl.oxfordjournals.org/content/58/11/2944.abstract)**. The Computer Journal, 58(11):2944--2955, 2015.
-
 * A. Erickson and F. Ruskey.  
 **[Generating Tatami Coverings Efficiently](http://arxiv.org/abs/1403.4776)**. Proc. of the international conference Génération Aléatoire de Structures Combinatoires (GASCom), Bertinoro, Italy, 2014.
-
 * N. J. A. Sloane.  
 **A022567, Expansion of Product $(1 + q^m)^2; m=1..\infty$**. 2010.
-
 * A. Erickson.  
 **[Monomino-Domino Tatami Coverings](http://hdl.handle.net/1828/4902)**. University of Victoria, 2013.
-
 * A. Erickson and F. Ruskey.  
 **[Enumerating maximal tatami mat coverings of square grids with $v$ vertical dominoes](http://arxiv.org/abs/1304.0070)**. Manuscript in preparation, 2013.
 
@@ -101,6 +97,12 @@ Due to my own preferences, the output has the following idiosyncracies:
   * **Titles are in bold**
   * Titles are hyperlinked if a link exists (and the link address is not
     displayed anywhere)
+
+Note that the white space in the templates is important. If newlines are added
+in certain places, then unwanted spaces might be added when certain fields are
+empty.
+
+File -> New Template is very useful for discovering how to write templates.
 
 ### Issues ###
 
