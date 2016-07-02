@@ -115,6 +115,15 @@ The template source is not pretty to look at, but here is an example:
 **<$remoteURLs.URL?>[</$remoteURLs.URL?><$fields.Title.stringByDeTeXifyingString.stringByRemovingCurlyBraces/><$remoteURLs.URL?>](<$remoteURLs.URL.absoluteString.@firstObject/>)</$remoteURLs.URL?>**. <$fields.Journal.stringByDeTeXifyingString.stringByRemovingCurlyBraces.stringByAppendingCommaAndSpaceIfNotEmpty/><$fields.Volume/><$fields.Number.parenthesizedStringIfNotEmpty/><$fields.Pages?>:<$fields.Pages.stringByAppendingCommaAndSpaceIfNotEmpty/></$fields.Pages?><$fields.Year/>.
 ```
 
+### Other ways of converting BibTeX to Markdown ###
+
+I made these templates because I was dissatisfied with the output of
+[Pandoc](http://pandoc.org), and I wanted a simpler, one step solution.
+
+There is, in fact, a template that offers
+[pandoc integration in BibDesk](https://github.com/dsanson/bibdesk-pandoc-export-templates),
+and it might be worth checking out.
+
 ### Issues ###
 
   * Page ranges 8--10 that use two dashes don't convert to single dashes
